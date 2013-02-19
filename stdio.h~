@@ -4,7 +4,7 @@ static vid *vidpoint=0xB8000;
 void print(uint8_t *point,uint32_t size){
 
 while(size>0){
-printchar7(*point,0x07);
+printchar7(*point,0x07)
 point++;
 size--;
 }
