@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004010C9
+eax=00402020 ebx=00000000 ecx=00000000 edx=00C00000 esi=20038D70 edi=611A1E9F
+ebp=0028AC18 esp=0028ABF0 program=C:\Users\Administrator\Documents\Kernel\a.exe, pid 2800, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028AC18  004010C9  (00000001, 0028AC40, 200280E8, 20039929)
+0028ACE8  6100763A  (00000000, 0028CD68, 61006C50, 00000000)
+End of stack trace
